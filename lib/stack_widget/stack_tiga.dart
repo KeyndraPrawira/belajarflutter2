@@ -10,12 +10,12 @@ class StackThree extends StatelessWidget {
      body: Stack(
       children: [
         Image.network(
-          'https://upload.wikimedia.org/wikipedia/en/4/4d/Shrek_%28character%29.png '         ),
+          'https://upload.wikimedia.org/wikipedia/en/4/4d/Shrek_%28character%29.png'         ),
        Positioned(
           bottom: 10,
           left: 10,
-          child:  Text('Manusia Hijau',
-          style: TextStyle(
+          child:  Text('Manusia Kacang Ijo',
+          style: TextStyle(  
             fontSize: 24,
             color: Colors.white,
             backgroundColor: Colors.black54,
