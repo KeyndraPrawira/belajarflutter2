@@ -1,7 +1,12 @@
 import 'package:belajar_flutter/container_widget/container_dua.dart';
 import 'package:belajar_flutter/container_widget/container_satu.dart';
+import 'package:belajar_flutter/grid_view/grid_dua.dart';
+import 'package:belajar_flutter/grid_view/grid_satu.dart';
 import 'package:belajar_flutter/latihan/latihan_course_card.dart';
 import 'package:belajar_flutter/latihan/latihan_satu.dart';
+import 'package:belajar_flutter/list_widget/list_dua.dart';
+import 'package:belajar_flutter/list_widget/list_satu.dart';
+import 'package:belajar_flutter/list_widget/list_screen.dart';
 import 'package:belajar_flutter/main_layout.dart';
 import 'package:belajar_flutter/row_column_widget/column_satu.dart';
 import 'package:belajar_flutter/row_column_widget/latihan_row_column_1.dart';
@@ -21,8 +26,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CourseCard()
+     debugShowCheckedModeBanner: false,
+      home: GridProduct()
     );
   }
 }
